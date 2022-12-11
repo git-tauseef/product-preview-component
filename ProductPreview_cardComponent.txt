@@ -1,0 +1,11 @@
+1)   Hello! You did a very good job! To split the sections (image and content) equally, i would set the width of both divs inside of the main container to 50%.
+
+    .main-container div {width:50%;}
+
+    Then remove the img height of 300px and add this instead (so the image fills its container entirely) :
+
+    .image { max-width:100%; max-height:100%; object-fit: cover; }
+
+    I hope it helps and good luck!
+
+
